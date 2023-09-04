@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Task</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="elements">
+        <input type="checkbox" name="color" value="Green" id="green" />
+        <label for="color">Green</label>
+      </div>
+
+      <div class="elements">
+        <input type="checkbox" name="color" value="Red" id="red" />
+        <label for="color">Red</label>
+      </div>
+
+      <div class="elements">
+        <input type="checkbox" name="color" value="Blue" id="blue" />
+        <label for="color">Blue</label>
+      </div>
+
+      <div class="elements">
+        <input type="checkbox" name="color" value="Pink" id="pink" />
+        <label for="color">Pink</label>
+      </div>
+      
+      <div class="elements">
+        <input type="checkbox" name="color" value="Orange" id="orange" />
+        <label for="color">Orange</label>
+      </div>
+
+      <input class="btn" type="submit" onclick="findColor()" value="SUBMIT" />
+
+      <br>
+      <br>
+      <hr>
+      <div class="answer">
+        <h1><b>Result :</b></h1>
+        <h3 id="result"></h3>
+      </div>
+
+      <div>
+        <h3 id="greenBoy"></h3>
+      </div>
+
+      <div>
+        <h3 id="redBoy"></h3>
+      </div>
+
+      <div>
+        <h3 id="blueBoy"></h3>
+      </div>
+      
+      <div>
+        <h3 id="pinkBoy"></h3>
+      </div>
+      
+      <div>
+        <h3 id="orangeBoy"></h3>
+      </div>
+    </section>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>

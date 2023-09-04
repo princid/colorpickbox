@@ -1,0 +1,38 @@
+.elements{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.greenBox{
+    color: #227e16;
+}
+
+.redBox{
+    color: #f53816;
+}
+
+.blueBox{
+    color: #16c1f5;
+}
+
+.pinkBox{
+    color: #ec22cb;
+}
+
+.orangeBox{
+    color: #f89500;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(116, 72, 160);
+}
